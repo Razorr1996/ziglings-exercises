@@ -1137,6 +1137,13 @@ const exercises = [_]Exercise{
         .skip = true,
     },
     .{
+        .main_file = "109_vectors.zig",
+        .output =
+        \\Max difference (old fn): 0.014
+        \\Max difference (new fn): 0.014
+        ,
+    },
+    .{
         .main_file = "999_the_end.zig",
         .output =
         \\
